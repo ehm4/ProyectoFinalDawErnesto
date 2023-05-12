@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'texto';
+  src: url(../fonts/IBMPLEXSANS/IBMPlexSans-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'titulos';
+  src: url(../fonts/IBMPLEXSERIF/IBMPlexSerif-Regular.ttf) format('truetype');
+}
+body{
+  background-color: #121A44;
+}
+#menu{
+  display:flex;
+  margin-bottom: 30px;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+#botonmenu{
+  background-color: #121A44;
+  border: 2px;
+  border-style: solid;
+  width:160px;
+  height:20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-color: #E67753;
+  color: #E67753;
+  display: table;
+  vertical-align: middle;
+}
+#textoboton{
+  font-family: "texto";
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  line-height:2px; 
+  margin:0;
+}
+#botonmenu:hover{
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+#enlacemenu{
+  display:flex;
+  text-decoration: none;
+  width: 160px;
+}
+#logo{
+  width:330px;
+  height:400px;
+  display:flex;
+  align-items: center;
+  margin:auto;
+}
+#imglogo{
+  width:250px;
+}
+#rrss{
+  vertical-align: middle;
+  width:40px;
+}
+#login, #registro{
+  padding-left: 10px;
+  text-decoration: none;
+  color: #E67753; 
+}
+#login:hover, #registro:hover{
+  color: white; 
+}
+#loginregistro{
+  text-align: center;
+  font-family: "texto";
+  margin-bottom:20px;
+}
+#footer{
+  margin:0;
+  padding:0;
+  text-align: center;
+  color: #E67753; 
+  font-size: 10px;
+  font-family: "texto";
+}
