@@ -1,21 +1,29 @@
+/* Estilos generales del cuerpo */
 body {
+  /* Bloque: body (B) */
   background-color: #121A44;
   color: #FFF;
   font-family: Arial, sans-serif;
 }
 
+/* Estilos del contenedor */
 .container {
+  /* Bloque: container (B) */
   width: 400px;
   margin: 50px auto;
   text-align: center;
 }
 
+/* Estilos del logotipo */
 .logo img {
+  /* Bloque: logo (B) */
   width: 150px;
   margin-bottom: 20px;
 }
 
+/* Estilos del formulario de inicio de sesión */
 .login-form input {
+  /* Bloque: login-form (B) */
   width: 350px;
   padding: 10px;
   margin-bottom: 10px;
@@ -23,13 +31,17 @@ body {
   border-radius: 4px;
 }
 
+/* Estilos del contenedor de botones */
 .button-container {
+  /* Bloque: button-container (B) */
   display: flex;
   align-items: center;
   flex-direction: column-reverse;
 }
 
+/* Estilos de los botones en el contenedor */
 .button-container button {
+  /* Bloque: button (B) */
   width: 100%;
   padding: 10px;
   margin-top: 10px;
@@ -41,11 +53,15 @@ body {
   cursor: pointer;
 }
 
+/* Estilos de los botones al pasar el cursor */
 .button-container button:hover {
+  /* Modificador: hover (M) */
   background-color: #e6785353;
 }
 
+/* Estilos del pie de página */
 .footer {
+  /* Bloque: footer (B) */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,25 +71,37 @@ body {
   color: #FFF;
 }
 
+/* Estilos del logotipo en el pie de página */
 .footer-left img {
+  /* Bloque: footer-left (B) */
   width: 100px;
 }
 
+/* Estilos de los enlaces en el pie de página */
 .footer-right a {
+  /* Bloque: footer-right (B) */
   margin-left: 10px;
 }
 
+/* Estilos de las imágenes en el pie de página */
 .footer-right img {
+  /* Bloque: footer-right (B) */
   width: 30px;
   height: 30px;
 }
-#formulario{
+
+/* Estilos del formulario */
+#formulario {
+  /* Bloque: formulario (B) */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#formulario>input{
+
+/* Estilos de los elementos de entrada en el formulario */
+#formulario>input {
+  /* Elemento: input (E) */
   margin-bottom: 15px;
-  width:350px;
-  height:30px;
+  width: 350px;
+  height: 30px;
 }

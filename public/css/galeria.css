@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'titulos';
+  src: url(../fonts/IBMPLEXSERIF/IBMPlexSerif-Regular.ttf) format('truetype');
+}
+
+body {
+  /* Bloque: body (B) */
+  background-color: #121A44;
+}
+
+h1 {
+  text-align: center;
+  color: #E67753;
+  font-family: 'titulos';
+  margin: 0;
+}
+
+#imagen {
+  /* Bloque: imagen (B) */
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#galeria {
+  /* Bloque: galeria y imagen-container (B) */
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  place-content: center;
+  text-align: center;
+}
+
+#imagen-container {
+  /* Bloque: galeria y imagen-container (B) */
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+#alt {
+  /* Bloque: alt (B) */
+  color: #E67753;
+  font-family: "titulos";
+  font-size: 1.4rem;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+#enlacemenu {
+  /* Bloque: enlacemenu (B) */
+  justify-content: center;
+}
+
+#boton {
+  /* Bloque: boton (B) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#nav {
+  /* Bloque: nav (B) */
+  height: 100px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#imglogo {
+  /* Bloque: imglogo (B) */
+  width: 100px;
+  height: 100px;
+}
+
+#rrss {
+  /* Bloque: rrss (B) */
+  display: flex;
+  height: 100px;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+#instagram,
+#facebook {
+  /* Bloque: instagram y facebook (B) */
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+button {
+  /* Elemento: button (E) */
+  background-color: #121A44;
+  border: 1px solid #E67753;
+  color: #E67753;
+}
+
+button:hover {
+  /* Elemento: button (E) con modificador :hover (M) */
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  #alt {
+    /* Bloque: alt (B) con modificador de media query (M) */
+    color: #E67753;
+    font-family: "titulos";
+    font-size: 13px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+  }
+}

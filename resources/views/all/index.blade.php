@@ -11,41 +11,42 @@
   
   <div id="logo">
   <a href="https://www.facebook.com/people/%C3%91am-%C3%91am-Rute/100055149884082/">
-    <img  id="rrss" src="{{asset('../img/logofacebook.png')}}" alt="Facebook">
+    <img  id="rrss" src="{{asset('../storage/logofacebook.png')}}" alt="Facebook">
   </a>
-  <img  id="imglogo" src="{{asset('../img/logonamnam.png')}}" alt="Logo Ñam Ñam Rute">
+  <img  id="imglogo" src="{{asset('../storage/logonamnam.png')}}" alt="Logo Ñam Ñam Rute">
   <a href="https://www.instagram.com/namnamrute/">
-    <img id="rrss"src="{{asset('../img/logoinstagram.png')}}" alt="Instagram">
+    <img id="rrss"src="{{asset('../storage/logoinstagram.png')}}" alt="Instagram">
   </a>
-  </div>
-  <div id="loginregistro">
-    <a id="login" href="">Log in</a>
-    <a id="registro" href="http://127.0.0.1:8000/registro">Regístrate</a>
   </div>
   <div id="menu">
-    <a href="#" id="enlacemenu">
+    <a href="{{route('carta')}}" id="enlacemenu">
       <button name="button" id="botonmenu">
         <p id="textoboton">Carta</p>
       </button>
     </a>
-    <a href="http://127.0.0.1:8000/historia" id="enlacemenu">
+    <a href="{{route('historia')}}" id="enlacemenu">
       <button name="button" id="botonmenu">
         <p id="textoboton">Historia</p>
       </button>
     </a>
-    <a href="#" id="enlacemenu">
-      <button name="button" id="botonmenu">
-        <p id="textoboton">Pedidos</p>
-      </button>
-    </a>
-    <a href="#" id="enlacemenu">
+    <a href="{{route('galeria')}}" id="enlacemenu">
       <button name="button" id="botonmenu">
         <p id="textoboton">Galería</p>
       </button>
     </a>
-    <a href="#" id="enlacemenu">
+    <a href="{{route('contacto')}}" id="enlacemenu">
       <button name="button" id="botonmenu">
         <p id="textoboton">Contacto</p>
+      </button>
+    </a>
+    <a href="{{route('login')}}" id="enlacemenu">
+      <button name="button" id="botonmenu">
+        <p id="textoboton">Login</p>
+      </button>
+    </a>
+    <a href="{{route('registro')}}" id="enlacemenu">
+      <button name="button" id="botonmenu">
+        <p id="textoboton">Registrar</p>
       </button>
     </a>
   </div>

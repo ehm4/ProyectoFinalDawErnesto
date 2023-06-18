@@ -1,0 +1,39 @@
+body {
+  /* Bloque: body (B) */
+  background-color: #121A44;
+  color: #E67753;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+#cantidad {
+  /* Bloque: cantidad (B) */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#anotaciones {
+  /* Bloque: anotaciones (B) */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 50px;
+}
+
+#ayuda {
+  /* Bloque: ayuda (B) */
+  margin-bottom: 50px;
+  text-align: center;
+  width: 25%;
+}

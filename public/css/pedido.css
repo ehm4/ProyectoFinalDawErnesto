@@ -1,0 +1,357 @@
+/* Fuentes */
+@font-face {
+    font-family: "texto";
+    src: url(../fonts/IBMPLEXSANS/IBMPlexSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "titulos";
+    src: url(../fonts/IBMPLEXSERIF/IBMPlexSerif-Regular.ttf) format("truetype");
+}
+
+/* Bloque: body */
+body {
+    background-color: #121a44;
+    color: #e67753;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+/* Bloque: listas */
+.listas {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 500px;
+    border: 1px solid;
+}
+
+/* Elemento: h1 dentro de listas */
+.listas h1 {
+    text-align: center;
+}
+
+/* Bloque: product-list */
+.product-list {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    border-top: 1px solid;
+}
+
+.product-list:last-child {
+    border-bottom: 1px solid;
+}
+
+/* Elemento: li dentro de product-list */
+.product-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Elemento: product-name */
+.product-name {
+    text-align: center;
+    flex-basis: 200px; /* Ajusta el ancho según sea necesario */
+}
+
+/* Elemento: product-description */
+.product-description {
+    text-align: left;
+    flex-basis: 300px; /* Ajusta el ancho según sea necesario */
+}
+
+/* Elemento: product-price */
+.product-price {
+    text-align: center;
+    flex-basis: 100px; /* Ajusta el ancho según sea necesario */
+}
+
+/* Elemento: product-img */
+.product-img {
+    text-align: center;
+    flex-basis: 100px; /* Ajusta el ancho según sea necesario */
+}
+
+/* Bloque: botones */
+#botones {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Elemento: button */
+button {
+    background-color: #121a44;
+    border: 1px solid #e67753;
+    color: #e67753;
+}
+
+/* Pseudo-clase: hover para button */
+button:hover {
+    cursor: pointer;
+}
+
+/* Bloque: detalles */
+#detalles h1 {
+    text-align: center;
+}
+
+/* Bloque: detalles */
+#detalles {
+    width: 100%;
+}
+
+/* Bloque: categoria, productos */
+#categoria,
+#productos {
+    font-family: "texto";
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+#categoria option,
+#productos option {
+    color: #222;
+}
+
+/* Bloque: formularios */
+#formularios {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    color-scheme: dark;
+}
+/* Estilos del formulario 1 */
+#formulario1 {
+    /* Bloque: formulario1 (B) */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos del formulario 2 */
+#formulario2 {
+    /* Bloque: formulario2 (B) */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+/* Estilos de los inputs dentro de formulario2 */
+#formulario2 input {
+    /* Elemento: input (E) */
+    width: 100%;
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1rem;
+    border-bottom: 1px solid currentColor;
+}
+
+#formulario2 input::placeholder {
+    color: inherit;
+}
+
+#formulario2 input:focus {
+    outline: none;
+    border-width: 2px;
+}
+
+/* Estilos del botón "agregardetalles" */
+#agregardetalles {
+    /* Bloque: agregardetalles (B) */
+    margin-top: 20px;
+    padding-inline: 30px;
+    font-weight: bold;
+}
+
+/* Estilos del formulario de detalles */
+#detallesformulario {
+    /* Bloque: detallesformulario (B) */
+    margin: auto;
+    max-width: 100%; /* Modificador: width (M) */
+    width: 600px;
+    display: flex;
+    flex-direction: column; /* Modificador: row-reverse (M) */
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/* Estilos de la barra de navegación */
+#nav {
+    /* Bloque: nav (B) */
+    height: 100px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    align-content: space-between; /* Modificador: space-between (M) */
+    justify-content: space-between; /* Modificador: space-between (M) */
+}
+
+/* Estilos del logo */
+#imglogo {
+    /* Elemento: imglogo (E) */
+    width: 100px;
+    height: 100px;
+}
+
+/* Estilos de las redes sociales */
+#rrss {
+    /* Bloque: rrss (B) */
+    display: flex;
+    height: 100px;
+    flex-direction: row-reverse; /* Modificador: row-reverse (M) */
+    align-items: center;
+}
+
+/* Estilos de los iconos de Instagram y Facebook */
+#instagram,
+#facebook {
+    /* Elemento: instagram, facebook (E) */
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+/* Estilos del carrito */
+#carrito {
+    /* Bloque: carrito (B) */
+    text-align: center;
+}
+
+/* Estilos de los enlaces */
+a {
+    /* Elemento: a (E) */
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos de los enlaces al pasar el cursor sobre ellos */
+a:hover {
+    /* Elemento: a (E), Modificador: hover (M) */
+    color: #3c58e6;
+}
+
+/* Estilos de los botones */
+button {
+    /* Elemento: button (E) */
+    background-color: #121a44;
+    border: 1px solid #e67753;
+    color: #e67753;
+}
+/* Estilos del botón al pasar el cursor sobre él */
+button:hover {
+    /* Elemento: button (E), Modificador: hover (M) */
+    cursor: pointer;
+    border: 1px solid white; /* Modificador: border (M) */
+    color: white; /* Modificador: color (M) */
+}
+
+/* Estilos para pantallas con un ancho máximo de 600px */
+@media only screen and (max-width: 600px) {
+    body {
+        /* Bloque: body (B) */
+        background-color: #121a44;
+        color: #e67753;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: auto; /* Modificador: height (M) */
+        margin: 0;
+        width: 100%; /* Modificador: width (M) */
+    }
+
+    .listas {
+        /* Bloque: listas (B) */
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 100%; /* Modificador: width (M) */
+        border: 1px solid;
+    }
+
+    .product-list {
+        /* Bloque: product-list (B) */
+        list-style: none;
+        border-top: 1px solid; /* Modificador: border-top (M) */
+    }
+
+    .product-list li {
+        /* Elemento: li (E) */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .product-description {
+        /* Elemento: product-description (E) */
+        text-align: center;
+        flex-basis: 300px; /* Modificador: flex-basis (M) */
+    }
+    /* Estilos del enlace de menú */
+    #enlacemenu {
+        /* Bloque: enlacemenu (B) */
+        margin-top: 10px;
+        width: 100%; /* Modificador: width (M) */
+        text-align: center;
+    }
+
+    /* Estilos de los formularios */
+    #formularios {
+        /* Bloque: formularios (B) */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        width: 100%; /* Modificador: width (M) */
+        height: auto; /* Modificador: height (M) */
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /* Estilos del formulario de detalles */
+    #detallesformulario {
+        /* Bloque: detallesformulario (B) */
+        margin: auto;
+        width: 100%; /* Modificador: width (M) */
+        height: auto; /* Modificador: height (M) */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.text-icon {
+    width: 1.4em;
+    height: 1.4em;
+}

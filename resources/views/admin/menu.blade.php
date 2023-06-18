@@ -9,7 +9,7 @@
 </head>
 <body>
   
-  <div id="logo">
+<div id="logo">
   <a href="https://www.facebook.com/people/%C3%91am-%C3%91am-Rute/100055149884082/">
     <img  id="rrss" src="{{asset('../storage/logofacebook.png')}}" alt="Facebook">
   </a>
@@ -19,43 +19,31 @@
   </a>
   </div>
   <div id="menu">
-    <a href="{{route('cartacliente')}}" id="enlacemenu">
+    <a href="{{route('clientes')}}" id="enlacemenu">
       <button name="button" id="botonmenu">
-        <p id="textoboton">Carta</p>
+        <p id="textoboton">Usuarios</p>
       </button>
     </a>
-    <a href="{{route('historiacliente')}}" id="enlacemenu">
+    <a href="{{route('productos')}}" id="enlacemenu">
       <button name="button" id="botonmenu">
-        <p id="textoboton">Historia</p>
+        <p id="textoboton">Comida</p>
       </button>
     </a>
-    <a href="{{route('pedido')}}" id="enlacemenu">
+    <a href="{{route('pedidosenadmin')}}" id="enlacemenu">
       <button name="button" id="botonmenu">
         <p id="textoboton">Pedidos</p>
       </button>
     </a>
-    <a href="{{route('galeriacliente')}}" id="enlacemenu">
+    <a href="{{route('categoria')}}" id="enlacemenu">
       <button name="button" id="botonmenu">
-        <p id="textoboton">Galería</p>
+        <p id="textoboton">Categorias</p>
       </button>
     </a>
-    <a href="{{route('contactocliente')}}" id="enlacemenu">
-      <button name="button" id="botonmenu">
-        <p id="textoboton">Contacto</p>
-      </button>
-    </a>
-  </div>
-  <div id="footer">
-    <div id="menu">
-      <a href="{{route('logout')}}" id="enlacemenu">
+    <a href="{{route('logout')}}" id="enlacemenu">
       <button name="button" type="button" id="botonmenu">
         <p id="textoboton">Logout</p>
       </button>
       </a>
-    </div>
-      
-    <p>Ñam Ñam Rute ©</p>
-    <p>Todos los derechos reservados.</p>
   </div>
 </body>
 </html>

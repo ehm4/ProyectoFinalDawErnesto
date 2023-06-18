@@ -1,0 +1,92 @@
+body {
+  /* Bloque: body (B) */
+  background-color: #121A44;
+  color: #E67753;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  /* Bloque: container (B) */
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  /* Elementos: h1 (E) */
+  color: #E67753;
+  font-size: 24px;
+}
+
+#pintar {
+  overflow-y: auto;
+  max-height: 40vh;
+  margin-bottom: 10px;
+  max-width: 600px;
+}
+
+.user-list {
+  /* Bloque: user-list (B) */
+  list-style-type: none;
+  padding: 0;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-list li {
+  /* Elementos: li (E) */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #E67753;
+  width: 100%;
+}
+
+.user-name,
+.user-email,
+.user-phone {
+  /* Elementos: user-name (E), user-email (E), user-phone (E) */
+  font-weight: bold;
+}
+
+.user-name {
+  /* Elementos: user-name (E) */
+  font-size: 18px;
+}
+
+button {
+  /* Elementos: button (E) */
+  background-color: #121A44;
+  border: 1px solid #E67753;
+  color: #E67753;
+}
+
+button:hover {
+  /* Elementos: button (E) */
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
+
+.logo img {
+  /* Elementos: img (E) */
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+a {
+  /* Elementos: a (E) */
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  /* Elementos: a (E) */
+  color: #3C58E6;
+}

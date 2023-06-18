@@ -10,7 +10,7 @@
 <body>
 <div class="container">
         <div class="logo">
-            <img src="{{asset('../img/logonamnam.png')}}" alt="Logo">
+            <img src="{{asset('../storage/logonamnam.png')}}" alt="Logo">
         </div>
         <form class="login-form" action="{{ route('inicia-sesion') }}" method="POST">
             @csrf
@@ -28,11 +28,11 @@
         
         <footer class="footer">
             <div class="footer-left">
-                <img src="{{asset('../img/logonamnam.png')}}" alt="Logo Footer">
+                <img src="{{asset('../storage/logonamnam.png')}}" alt="Logo Footer">
             </div>
             <div class="footer-right">
-                <a href="https://www.facebook.com/people/%C3%91am-%C3%91am-Rute/100055149884082/"><img src="{{asset('../img/logofacebook.png')}}" alt="Icono Facebook"></a>
-                <a href="https://www.instagram.com/namnamrute/"><img src="{{asset('../img/logoinstagram.png')}}" alt="Icono Instagram"></a>
+                <a href="https://www.facebook.com/people/%C3%91am-%C3%91am-Rute/100055149884082/"><img src="{{asset('../storage/logofacebook.png')}}" alt="Icono Facebook"></a>
+                <a href="https://www.instagram.com/namnamrute/"><img src="{{asset('../storage/logoinstagram.png')}}" alt="Icono Instagram"></a>
             </div>
         </footer>
     </div>

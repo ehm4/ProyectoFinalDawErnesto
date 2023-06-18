@@ -38,24 +38,24 @@
   </div>
   <div id="botonesmedio">
          <div id="botonesmedio1">
-          <a href="{{route('menu')}}" id="enlacemenu">
+          <a href="{{route('clienteindex')}}" id="enlacemenu">
             <button name="button" id="botonmenu">
             <p id="textoboton">Home</p>
             </button>
           </a>
-          <a href="{{route('carta')}}" id="enlacemenu">
+          <a href="{{route('cartacliente')}}" id="enlacemenu">
             <button name="button" id="botonmenu">
             <p id="textoboton">Carta</p>
             </button>
           </a>
         </div>
         <div id="botonesmedio2">
-          <a href="{{route('galeria')}}" id="enlacemenu">
+          <a href="{{route('pedido')}}" id="enlacemenu">
             <button name="button" id="botonmenu">
-            <p id="textoboton">Galeria</p>
+            <p id="textoboton">Pedidos</p>
             </button>
           </a>
-          <a href="{{route('contacto')}}" id="enlacemenu">
+          <a href="{{route('contactocliente')}}" id="enlacemenu">
             <button name="button" id="botonmenu">
             <p id="textoboton">Contacto</p>
             </button>
