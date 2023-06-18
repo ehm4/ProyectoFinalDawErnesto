@@ -10,9 +10,9 @@ Al ser ya una tienda con una estética creada me he tenido que adaptar a esto y 
 Dependiendo del rol en el que estés, cliente o administrador, podrás realizar distintas funcionalidades:
 Habrá dos roles, cliente y administrador: 
 
--El rol administrador es el reservado para poder realizar cambios en la web y la base de datos, este tendrá un menú distinto al rol de cliente en el cuál le será permitido editar, añadir, borrar productos, ver usuarios, estadísticas en ventas...
+-El rol administrador es el reservado para poder realizar cambios en la web y la base de datos, este tendrá un menú distinto al rol de cliente en el cuál le será permitido editar, añadir, borrar productos, ver usuarios...
 
--El rol cliente es para todos aquellos que quieran hacer pedidos online (ya que se podrá iniciar sesión como invitado para visitar la web), este rol permitirá a los clientes ver la carta completa dividida por categorías, añadir al carrito y modificar en este los pedidos deseados junto a ver reseñas y enlaces a vídeos donde se pueden ver reseñas de los productos junto con una degustación de estos, ver reseñas de los demás clientes y poder escribir las suyas junto con la valoración del producto
+-El rol cliente es para todos aquellos que quieran hacer pedidos online (ya que se podrá iniciar sesión como invitado para visitar la web), este rol permitirá a los clientes ver la carta completa dividida por categorías, añadir al carrito y modificar en este los pedidos deseados junto a ver reseñas.
 
 **Tecnologías que utilizaré para la aplicación web:**
 
