@@ -5,6 +5,7 @@ use Illuminate\Http\Request;
 
 use App\Models\User;
 use App\Models\Pedido;
+use App\Models\Detalles;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 
@@ -87,6 +88,14 @@ class ClienteController extends Controller
         return redirect(route('admin'));
     }
     else{
+        $pedidos = Pedido::where('id', $cliente->id)->get();
+        foreach($pedidos as $pedido){
+            $detalles = Detalles::where('idpedido', $pedido->idpedido)->get();
+            foreach($detalles as $detalle){
+                $detalle->delete();
+            }
+            $pedido->delete();
+        }
         $cliente->delete();
         return redirect(route('clientes'));
     }

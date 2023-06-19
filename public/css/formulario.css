@@ -11,7 +11,19 @@ body {
   height: 100%;
   margin: 0;
 }
+button {
+  /* Elementos: button (E) */
+  background-color: #121a44;
+  border: 1px solid #e67753;
+  color: #e67753;
+}
 
+button:hover {
+  /* Elementos: button (E) */
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
 #cantidad {
   /* Bloque: cantidad (B) */
   display: flex;
